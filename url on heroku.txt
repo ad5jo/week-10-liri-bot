@@ -2,5 +2,54 @@ week-10-liri bot
 heroku create
 git push heroku master
 
+https://intense-citadel-67334.herokuapp.com
+https://git.heroku.com/intense-citadel-67334.git
+
+
+
+Week 10 liri bot
+
+https://intense-citadel-67334.herokuapp.com
+
+Organization
+Information about the organization or company associated with your application. This information is optional.
+Organization	None
+Organization website	None
+Application Settings
+Your application's Consumer Key and Secret are used to authenticate requests to the Twitter Platform.
+Access level	Read and write (modify app permissions)
+Consumer Key (API Key)	COeDKFadQIPpCdTTi0rlEoQ8e (manage keys and access tokens)
+Callback URL	None
+Callback URL Locked	No
+Sign in with Twitter	Yes
+App-only authentication	https://api.twitter.com/oauth2/token
+Request token URL	https://api.twitter.com/oauth/request_token
+Authorize URL	https://api.twitter.com/oauth/authorize
+Access token URL	https://api.twitter.com/oauth/access_token
+
+
+Application Settings
+Keep the "Consumer Secret" a secret. This key should never be human-readable in your application.
+Consumer Key (API Key)	KnlC9RV5fjEF5iJJiJ3e6VuGr
+Consumer Secret (API Secret)	IxhBqwQonJsDe0pQyxonXCoc5V9AaA6ocae8FzRb5cFt5Kkn1S
+Access Level	Read and write (modify app permissions)
+Owner	ddurkee0
+Owner ID	72827849
+
+
+Your Access Token
+This access token can be used to make API requests on your own account's behalf. Do not share your access token secret with anyone.
+Access Token	72827849-TdhISVKSylHxz173z3pV8FenZeEOyOUIOM3xbPF6D
+Access Token Secret	iw1fvIwz4x9rn7aJhGi6v7vA4bicAxTg1b5dgq0yU7eWC
+Access Level	Read and write
+Owner	ddurkee0
+Owner ID	72827849
+
+
+
+https://www.npmjs.com/package/twitter
+
+
+
 
 

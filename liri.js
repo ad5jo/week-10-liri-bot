@@ -1,18 +1,16 @@
-//set variable 
-
 var action = process.argv[2];
 var title = '';
 
 //If this's no movie, return Mr. Nobody
 if (action === 'movie-this' && process.argv[3] === undefined) {
-  title = 'Mr. Nobody';
+  title = 'The Fifth Element';
 }
 //If there is no song, return the sign
 if (action === 'spotify-this-song' && process.argv[3] === undefined) {
-  title = 'The Sign';
+  title = 'Witchy woman';
 }
 
-//for loop to account for spacing in title
+
 for (var i = 3; i < process.argv.length; i++) {
   if (i > 3 && i < process.argv.length) {
     title = title + "+" + process.argv[i];
@@ -22,7 +20,6 @@ for (var i = 3; i < process.argv.length; i++) {
   }
 }
 
-//If statements to check action
 if (action === 'my-tweet') {
 	tweet();
   append();
@@ -43,7 +40,6 @@ if (action === 'do-what-it-says') {
   append();
 };
 
-//functions
 
 function tweet() {
 	var Twitter = require('twitter');	
