@@ -1,7 +1,7 @@
 var action = process.argv[2];
 var title = '';
 
-//If this's no movie, return Mr. Nobody
+//If this's no movie, return The Fifth Element
 if (action === 'movie-this' && process.argv[3] === undefined) {
   title = 'The Fifth Element';
 }
@@ -20,7 +20,7 @@ for (var i = 3; i < process.argv.length; i++) {
   }
 }
 
-if (action === 'my-tweet') {
+if (action === 'my-tweets') {
 	tweet();
   append();
 };
@@ -58,7 +58,7 @@ var client = new Twitter({
   access_token_secret: access_token_secret
 });
 //parameters for the search 
-var params = {screen_name: 'NinjaPanda47', count: 20};
+var params = {screen_name: 'ddurkee0', count: 20};
 client.get('statuses/user_timeline', params, function(error, tweets, response) {
   if (!error) {
     for (i=0; i<tweets.length; i++){
